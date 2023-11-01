@@ -1,3 +1,4 @@
+package models;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,7 +50,6 @@ public class Gerente {
             System.out.println("Nome: " + departamento.getNome());
             System.out.println("Descrição: " + departamento.getDescricao());
             departamento.listarFuncionarios();
-            System.out.println("-----------");
         }
     }
 
