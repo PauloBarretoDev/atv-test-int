@@ -1,4 +1,5 @@
 package models;
+
 public class Funcionario {
     private String nomeCompleto;
     private double salario;
