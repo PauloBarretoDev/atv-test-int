@@ -12,6 +12,13 @@ public class Departamento {
         this.funcionarios = new ArrayList<>();
     }
 
+    public Departamento(String nome, String descricao, Funcionario funcionario) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.funcionarios = new ArrayList<>();
+        this.funcionarios.add(funcionario);
+    }
+
     public String getNome() {
         return this.nome;
     }
