@@ -10,7 +10,6 @@ public class Funcionario {
         this.vendas = vendas;
     }
 
-    // Métodos de acesso (getters)
     public String getNomeCompleto() {
         return this.nomeCompleto;
     }
@@ -23,7 +22,6 @@ public class Funcionario {
         return this.vendas;
     }
 
-    // Métodos de modificação (setters)
     public void setNomeCompleto(String nomeCompleto) {
         this.nomeCompleto = nomeCompleto;
     }
@@ -34,6 +32,10 @@ public class Funcionario {
 
     public void setVendas(int vendas) {
         this.vendas = vendas;
+    }
+
+    public void mudarSalrio(double novoSalario){
+        this.salario = novoSalario;
     }
 
     public void aumentarSalarioComBaseVendas() {
